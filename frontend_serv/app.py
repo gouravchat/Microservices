@@ -15,7 +15,7 @@ bootstrap = Bootstrap(app)
 app.config.update(dict(
     SECRET_KEY="powerful secretkey",
     WTF_CSRF_SECRET_KEY="a csrf secret key",
-    PRODUCT_SERVICE= 'http://192.168.99.100:8081'
+    PRODUCT_SERVICE= 'http://192.168.0.104:8080'
 ))
 
 app.register_blueprint(frontend_blueprint)
