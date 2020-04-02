@@ -8,5 +8,5 @@ The full architecture is Microservices.
 2.  work on progress on back end side.
 3.  Major focus will be on building analytics on the platform and recommendation engine and synamic scaling of the app.
 
-
-There is no docker yet now.
+dockerfile and docker-compase fil have been created.
+to see the front end service, download the repr  and use docker-compose up ommand in the Retail_ap directory 
